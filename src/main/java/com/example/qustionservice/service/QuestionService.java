@@ -82,6 +82,7 @@ public class QuestionService {
 
                 right++;
         }
+        return new ResponseEntity<>(right, HttpStatus.OK);
     }
 }
 
